@@ -3,3 +3,102 @@
     padding: 0;
     box-sizing: border-box;
 }
+.header{
+    padding: 2rem 5rem;
+}
+
+.nav-container{
+    display: flex;
+}
+
+.logo-container{
+    display: flex;
+}
+.logo-container>div{
+    padding: 0.1rem 0.3rem;
+}
+
+.logo-container div img{
+    height: 2.5rem;
+    width: 2.3rem;
+}
+
+.logo-title{
+    font-style: italic;
+}
+
+.logo-title h1{
+    padding-top: 0.4rem;
+}
+
+.nav-list{
+    padding: 0.6rem 30rem;
+    padding-right: 0.1rem;
+}
+
+.nav-list ul{
+    list-style-type: none;
+}
+
+.nav-list li{
+    display: inline-block;
+}
+
+.nav-list a{
+    color: rgb(10, 79, 10);
+    text-decoration: none;
+    padding: 0.2rem 1.5rem;
+    padding-top: 1.5rem;
+    font-size: 1.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reserve-grina-btn{
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(10, 79, 10);
+    color: aliceblue;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+}
+
+.home{
+    padding: 2rem 5rem;
+}
+
+.home-container{
+    display: flex;
+}
+
+.home-bd{
+    flex: 1;
+}
+
+.home-bd-info{
+    padding-right: 4rem;
+}
+
+.home-bd-info h1{
+    color: green;
+    font-style: italic;
+}
+
+.home-bd-info p{
+    padding: 1rem 0rem;
+}
+
+.home-bd-img img{
+    height: 15rem;
+    width: 35rem;
+}
+
+.features{
+    padding: 2rem 5rem;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
