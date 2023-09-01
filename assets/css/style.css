@@ -45,7 +45,7 @@
 }
 
 .nav-list a{
-    color: rgb(10, 79, 10);
+    color: rgb(6, 52, 6);
     text-decoration: none;
     padding: 0.2rem 1.5rem;
     padding-top: 1.5rem;
@@ -55,7 +55,7 @@
 .reserve-grina-btn{
     border: none;
     border-radius: 1rem;
-    background-color: rgb(10, 79, 10);
+    background-color: rgb(6, 52, 6);
     color: aliceblue;
     padding: 0.5rem 1.2rem;
     cursor: pointer;
@@ -78,24 +78,53 @@
 }
 
 .home-bd-info h1{
-    color: green;
+    color: rgb(13, 137, 13);
     font-style: italic;
 }
 
 .home-bd-info p{
-    padding: 1rem 0rem;
+    padding: 2rem 0rem;
+    text-align: justify;
 }
 
 .home-bd-img img{
     height: 15rem;
     width: 35rem;
+    border-radius: 1rem;
+}
+.features{
+    margin: 2rem 5rem;
+    box-shadow: 0px 0px 15px grey;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
-.features{
-    padding: 2rem 5rem;
-    box-shadow: 1px 1px 1px grey;
-    border-radius: 2rem;
+.section-heading{
+    font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
 }
+
+.section-sub-heading{
+    color: rgb(13, 137, 13);
+    font-style: italic;
+}
+
+.features-container{
+    display: flex;
+}
+
+.features-bd{
+    margin: 3rem 2rem;
+}
+
+.features-bd-img1{
+    background-image: url("../img/features-img1.webp");
+    background-size: contain;
+}
+
+
+
+
+
 
 
 
