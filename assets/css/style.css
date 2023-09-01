@@ -45,7 +45,7 @@
 }
 
 .nav-list a{
-    color: rgb(6, 52, 6);
+    color: rgb(6, 71, 6);
     text-decoration: none;
     padding: 0.2rem 1.5rem;
     padding-top: 1.5rem;
@@ -55,7 +55,7 @@
 .reserve-grina-btn{
     border: none;
     border-radius: 1rem;
-    background-color: rgb(6, 52, 6);
+    background-color: rgb(6, 71, 6);
     color: aliceblue;
     padding: 0.5rem 1.2rem;
     cursor: pointer;
@@ -92,15 +92,10 @@
     width: 35rem;
     border-radius: 1rem;
 }
-.features{
-    margin: 2rem 5rem;
-    box-shadow: 0px 0px 15px grey;
-    border-radius: 0.5rem;
-    padding: 1rem;
-}
 
 .section-heading{
-    font-family: Arial, Helvetica, sans-serif;font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 71, 6);
 }
 
 .section-sub-heading{
@@ -108,20 +103,127 @@
     font-style: italic;
 }
 
+.features{
+    margin: 2rem 5rem;
+    box-shadow: 0px 0px 15px grey;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
+.features h5, h2{
+    padding: 0.2rem 0.5rem;
+}
+
 .features-container{
     display: flex;
+    padding-top: 1rem;
+    position: relative;
 }
 
 .features-bd{
-    margin: 3rem 2rem;
+    border-radius: 1rem;
+    height: 20rem;
+    width: 35rem;
+    background-size: cover;
+    margin: 0.5rem;
+    margin-top: 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
+
+.features-bd p{
+    color: aliceblue;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    font-style: italic;
+    /* text-shadow: 0px 0px 1px black; */
+}    
 
 .features-bd-img1{
-    background-image: url("../img/features-img1.webp");
-    background-size: contain;
+    background-image: url("../img/features-img1.webp"); 
 }
 
+.features-bd-img2{
+    background-image: url("../img/features-img2.jpg");
+}
 
+.installation{
+    margin: 4.5rem 5rem;
+}
+
+.installation h5, h2{
+    padding: 0.2rem 0.5rem;
+}
+
+.installation-container{
+    display: flex;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.installation-bd{
+    height: 25rem;
+    width: 42rem;
+    background-size: cover;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    margin-top: 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.installation-bd p{
+    color: aliceblue;
+    padding-bottom: 1.3rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    /* text-shadow: 0px 0px 1px black; */
+}    
+
+.installation-bd-img1{
+    background-image: url("../img/installation-img1.jpg"); 
+}
+
+.installation-bd-img2{
+    background-image: url("../img/installation-img2.jpg");
+}
+
+.aboutFounder{
+    padding: 2rem 5rem;
+}
+
+.aboutFounder-container{
+    display: flex;
+}
+
+.aboutFounder-bd-info{
+    padding: 0.5rem 5rem 5rem 0rem;
+}
+
+.aboutFounder-bd-info h2+p{
+    text-align: justify;
+    padding: 1.5rem 0rem;
+}
+
+.aboutFounder-bd-info h2+p+p{
+    font-weight: bolder;
+    color: rgb(6, 71, 6);
+    padding: 0.3rem 0rem;
+}
+
+.aboutFounder-bd-info h2+p+p+p{
+    color: rgb(13, 137, 13);
+}
+
+.aboutFounder-bd-img img{
+    width: 24rem;
+    height: 15.5rem;
+    border-radius: 1rem;
+}
 
 
 
